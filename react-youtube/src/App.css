@@ -31,6 +31,8 @@
 }
 .txt{
   margin-left: 10px;
+  color: white;
+
 }
 .line{
   margin-top: 15px;
@@ -38,6 +40,8 @@
 .sus{
   margin-left: 20px;
   margin-top: 10px;
+  color: #787878;
+
 }
 .search{
   color: #AAAAAA;
