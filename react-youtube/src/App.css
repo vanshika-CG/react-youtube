@@ -1,7 +1,7 @@
-*{
+/* *{
   margin: 0px;
   padding: 0px;
- 
+
 }
 .sidebar{
   background-color: #212121;
@@ -193,7 +193,7 @@
 .boxes{
   display: flex;
   /* width: 100%; */
-}
+/* }
 .box{
   margin: 10px;
   width: 19vw;
@@ -206,14 +206,176 @@
 }
 
 .main {
-  width: 80vw;
+  width: 90vw;
+  background-color: #323232;
 }
 .boxes1,.boxes2{
   display: flex;
   /* width: 100%; */
-}
+/* }
 .de{
   color: #999999;
   font-size: small;
   margin-left: 45px;
+} */ 
+
+
+*{
+  margin: 0;
+  padding: 0;
 }
+.main{
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+.Sidebar{
+  display: grid;
+  grid-template-rows: 30% 33% 37%;
+  background-color: #212121;
+  height: 100vh;
+    width: 18%;
+}
+.HomeFeatures{
+  border-bottom: 2px solid #383838;
+}
+.VideosFeature{
+  border-bottom: 2px solid #383838;
+  margin-top: 4%;
+}
+.SubscriptionsFeature{
+  border-bottom: 2px solid #383838;
+}
+.option{
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin-top: 8%;
+  align-items: center;
+  margin-bottom: 6%;
+
+
+}
+.Home{
+  display: grid;
+  grid-template-columns: 25% 75%;
+  align-items: center;
+  margin-top: 3%;
+
+}
+.HomeImg{
+  width: 45%;
+  margin-left: 20%;
+}
+.HomeText{
+  color: white;
+  font-family: sans-serif;
+}
+.SubscriptionText{
+  color: #aaaaaa;
+  font-family: sans-serif;
+  margin-left: 20%;
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+
+.Mainmenu{
+  background-color: #181818;
+  width: 100%;
+}
+.searchbar{
+  border: 1px solid #323232;
+  width: 63%;
+  display: grid;
+  align-items: center;
+  margin-left: 35%;
+  height: 5vh;
+  grid-template-columns:93% 7%;
+}
+.SearchText{
+  color: #7e7e7e;
+  margin-left: 3%;
+}
+.SearchImg{
+  background-color: #323232;
+  width: 67%;
+  padding: 17%;
+}
+.MicImg{
+  align-self: center;
+
+}
+.navbar{
+  display: grid;
+      grid-template-columns: 64% 20% 4% 4% 4% 4%;
+      margin-top: 1%;
+      margin-left: 1%;
+      border-bottom: 2px solid #323232;
+      padding-bottom: 1%;
+}
+.CreateImg{
+  width: 55%;
+}
+.Suggestions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom:2px solid #323232;
+  margin-left: 1%;
+
+}
+.SuggText{
+  color: white;
+  background-color: #383838;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SuggText1{
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Thumbnails{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.Thumbnail{
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.Title{
+  display: grid;
+  grid-template-columns: 15% 70%;
+}
+.ThumbName{
+  color: white;
+  font-size: 15px;
+
+}
+.Channel{
+  display: flex;
+  margin-top: 3%;
+}
+.CName{
+  color: #6b6b6b;
+  font-size: 14px;
+}
+.verify{
+  width: 70%;
+  margin-left: 20%;
+}
+.views{
+  color: #6b6b6b;
+  font-size: 14px;
+}
+
+
